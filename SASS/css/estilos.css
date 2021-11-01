@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,400&family=Rokkitt:wght@300;400;500&family=Rosario:ital,wght@0,400;1,300&display=swap");
+/* line 3, ../SASS/scss/_main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../SASS/scss/_main.scss */
+body {
+  background-color: black;
+}
+
+/*header*/
+/* line 13, ../SASS/scss/_main.scss */
+.menu {
+  background-color: black;
+  width: 99vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px;
+}
+
+/* line 25, ../SASS/scss/_main.scss */
+.logo a img {
+  width: 500px;
+  padding: 0 80px;
+}
+
+/* line 32, ../SASS/scss/_main.scss */
+.menu-items {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+/* line 37, ../SASS/scss/_main.scss */
+.menu-items li {
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+/* line 40, ../SASS/scss/_main.scss */
+.menu-items li a {
+  font-family: rokkitt;
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  color: white;
+}
+
+/* line 51, ../SASS/scss/_main.scss */
+.iconify {
+  margin-right: 30px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* line 59, ../SASS/scss/_main.scss */
+ul.show {
+  top: 65px;
+}
+
+/*inicio*/
+/* line 66, ../SASS/scss/_main.scss */
+.carousel-inner {
+  height: 92vh;
+  min-height: 480px !important;
+  width: 100%;
+}
+
+/*biografia*/
+/* line 74, ../SASS/scss/_main.scss */
+#main {
+  display: inline-block;
+  flex-direction: row;
+}
+
+/* line 79, ../SASS/scss/_main.scss */
+.contenedorBio {
+  border-bottom: 1px solid white;
+  padding-top: 100px;
+  width: 100%;
+}
+
+/* line 85, ../SASS/scss/_main.scss */
+.fotoBio {
+  width: 30%;
+  height: 100%;
+}
+
+/* line 91, ../SASS/scss/_main.scss */
+.tituloBio h2 {
+  font-family: 'Rosario', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
+}
+
+/* line 99, ../SASS/scss/_main.scss */
+.textoBiografia {
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/*contacto*/
+/* line 111, ../SASS/scss/_main.scss */
+#contactoMain {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 119, ../SASS/scss/_main.scss */
+.tituloContacto {
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Rosario', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  padding-top: 100px;
+}
+
+/* line 129, ../SASS/scss/_main.scss */
+.imagenFormulario img {
+  width: 400px;
+}
+
+/* line 134, ../SASS/scss/_main.scss */
+.formulario {
+  width: 60%;
+  height: auto;
+  padding-left: 55px;
+}
+
+/* line 138, ../SASS/scss/_main.scss */
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  border: 2px solid;
+  border-color: white;
+  width: 500px;
+}
+
+/* line 149, ../SASS/scss/_main.scss */
+.formControl {
+  display: block;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* line 156, ../SASS/scss/_main.scss */
+.formNombre {
+  margin: 40px 20px 20px 20px;
+  align-items: 50%;
+}
+
+/* line 161, ../SASS/scss/_main.scss */
+.formEmail {
+  margin: 20px 20px 20px 20px;
+}
+
+/* line 165, ../SASS/scss/_main.scss */
+.formSugerencia {
+  height: 200px;
+  margin: 20px 20px 20px 20px;
+}
+
+/* line 170, ../SASS/scss/_main.scss */
+.formBoton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+  margin: 20px 20px 20px 20px;
+}
+
+/*Galeria*/
+/* line 179, ../SASS/scss/_main.scss */
+.contenedorGaleria {
+  padding-top: 100px;
+  display: grid;
+  min-height: 100vh;
+  grid-template-areas: "tituloGaleria tituloGaleria tituloGaleria" "galeriaFotos galeriaFotos galeriaFotos";
+  grid-template-columns: 100%;
+  grid-template-rows: 100px;
+  border-bottom: 1px solid white;
+}
+
+/* line 192, ../SASS/scss/_main.scss */
+.tituloGaleria {
+  grid-area: tituloGaleria;
+  font-family: 'Rosario', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
+}
+
+/* line 198, ../SASS/scss/_main.scss */
+.tituloGaleria h2 {
+  font-size: 35px;
+}
+
+/* line 205, ../SASS/scss/_main.scss */
+.tituloGaleria h3 {
+  font-size: 25px;
+}
+
+/* line 210, ../SASS/scss/_main.scss */
+.galeriaFotos {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+/* line 216, ../SASS/scss/_main.scss */
+.columnas {
+  flex: 25%;
+  padding: 5px;
+}
+
+/* line 219, ../SASS/scss/_main.scss */
+.columnas img {
+  margin-top: 5px;
+  width: 100%;
+}
+
+/*Discos*/
+/* line 227, ../SASS/scss/_main.scss */
+#contenedorDiscos {
+  padding-top: 100px;
+  display: grid;
+  grid-template-areas: "tituloDiscos tituloDiscos tituloDiscos" "bandasDiscos fotosDiscos .";
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100px;
+}
+
+/* line 239, ../SASS/scss/_main.scss */
+.tituloDiscos {
+  grid-area: tituloDiscos;
+  font-family: 'Rosario', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
+}
+
+/* line 247, ../SASS/scss/_main.scss */
+.bandasDiscos {
+  grid-area: bandasDiscos;
+  justify-self: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* line 254, ../SASS/scss/_main.scss */
+.bandasDiscos ul li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+/* line 261, ../SASS/scss/_main.scss */
+.fotosDiscos {
+  grid-area: fotosDiscos;
+}
+
+/* line 263, ../SASS/scss/_main.scss */
+.fotosDiscos img {
+  height: 250px;
+  width: 250px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1138px) {
+  /* line 274, ../SASS/scss/_main.scss */
+  .menu {
+    height: 65px;
+  }
+  /* line 277, ../SASS/scss/_main.scss */
+  .logo a img {
+    width: 400px;
+  }
+  /* line 280, ../SASS/scss/_main.scss */
+  .iconify {
+    display: inline-flex;
+  }
+  /* line 283, ../SASS/scss/_main.scss */
+  .menu-items {
+    z-index: 110;
+    position: fixed;
+    width: 100vw;
+    height: calc(100% - 65px);
+    background-color: black;
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
+    flex-direction: column;
+  }
+  /* line 294, ../SASS/scss/_main.scss */
+  .menu-items li {
+    margin: 30px 0px 0px;
+    line-height: 30px;
+  }
+  /* line 298, ../SASS/scss/_main.scss */
+  .menu-items li a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1138px) and (orientation: landscape) {
+  /* line 308, ../SASS/scss/_main.scss */
+  .menu-items li {
+    margin: 5px 0 0 0;
+  }
+  /* line 311, ../SASS/scss/_main.scss */
+  .menu-items {
+    overflow: scroll;
+    height: calc(100% - 65px);
+  }
+}
+
+@media all and (max-width: 880px) {
+  /* line 319, ../SASS/scss/_main.scss */
+  .tituloContacto h2 {
+    font-size: 25px;
+  }
+  /* line 323, ../SASS/scss/_main.scss */
+  .imagenFormulario {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  /* line 330, ../SASS/scss/_main.scss */
+  .columnas {
+    flex: 50%;
+  }
+  /* line 333, ../SASS/scss/_main.scss */
+  .tituloGaleria h2 {
+    font-size: 30px;
+  }
+  /* line 336, ../SASS/scss/_main.scss */
+  .tituloGaleria h3 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 665px) {
+  /* line 342, ../SASS/scss/_main.scss */
+  .bandasDiscos {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* line 349, ../SASS/scss/_main.scss */
+  .logo a img {
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  /* line 355, ../SASS/scss/_main.scss */
+  .columnas {
+    flex: 100%;
+  }
+  /* line 358, ../SASS/scss/_main.scss */
+  .tituloGaleria h2 {
+    font-size: 25px;
+  }
+  /* line 361, ../SASS/scss/_main.scss */
+  .tituloGaleria h3 {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
