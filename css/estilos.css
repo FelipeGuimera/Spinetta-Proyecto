@@ -360,3 +360,26 @@ ul.show{
 	}
 
 }
+
+
+/*Recibir Formulario*/
+
+.textoRecibe span{
+	font-family: 'Rosario', sans-serif;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 100px;
+}
+
+.volverContacto a{
+	display: flex;
+	list-style: none;
+	color: white;
+	justify-content: center;
+	padding-top: 60px;
+}
+
+.
