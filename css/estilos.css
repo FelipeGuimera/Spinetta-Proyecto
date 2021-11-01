@@ -344,6 +344,7 @@ ul.show{
 
 .fotosDiscos{
 	grid-area: fotosDiscos;
+	padding-right: 10px;
 }
 
 .fotosDiscos img{
